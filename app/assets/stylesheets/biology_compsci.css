@@ -1,0 +1,25 @@
+#biology_html{
+  display: none;
+  margin:3% 2% 6% 2%;
+  width: 90%;
+  font-family: 'Raleway', sans-serif;
+  color: lightgray;
+}
+
+#biology_html p{
+  font-size: 16px;
+  margin-left: 5%;
+}
+
+#tech_html{
+  display: none;
+  margin:3% 2% 6% 2%;
+  width: 90%;
+  font-family: 'Raleway', sans-serif;
+  color: lightgrey;
+}
+
+#tech_html p{
+  font-size: 16px;
+  margin-left: 5%;
+}

@@ -1,0 +1,26 @@
+#resume{
+  display: none;
+  margin:3% 2% 6% 2%;
+  width: 90%;
+  font-family: 'Raleway', sans-serif;
+  color: lightgray;
+}
+
+.resume_list{
+  font-size: 16px;
+}
+
+.prowork{
+  border-bottom: 1px lightblue solid;
+  text-align: center;
+}
+
+
+
+h2{
+  color: lightblue;
+}
+
+h3{
+  color: lightblue;
+}
