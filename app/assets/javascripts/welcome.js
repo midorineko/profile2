@@ -1,6 +1,8 @@
+
 var ready;
 ready = function() {
 $(document).ready(function(){
+$('.0text').hide();
 $(".navbar").hide();
 $("#profile_pic").hide();
 
@@ -21,6 +23,7 @@ function heightCalculator(){
 window.setInterval(function(){
     Welcome(index)
     if (index === 0){
+
       $("#profile_pic").show("slide");
     }
     if (index === 1){
@@ -29,10 +32,8 @@ window.setInterval(function(){
     }
     index += 1
     if (index === 7){
-      $(".navbar").show("fold", function() {
          heightCalculator();
           $( ".welcome" ).animate({height:fullHeight + "px"},10);
-      })
     }
     if (index === 8 ){
 
