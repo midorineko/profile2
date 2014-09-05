@@ -4,6 +4,12 @@
 .socialnet{
   display: none;
 }
+.meow{
+  display:none;
+}
+.imgHov{
+  border: 2px solid lightblue;
+}
 
 .welcome0:hover{
   color:red;
@@ -18,6 +24,12 @@
   color:red;
 }
 .welcome4:hover{
+  color:red;
+}
+.welcome5:hover{
+  color:red;
+}
+.welcome6:hover{
   color:red;
 }
 
