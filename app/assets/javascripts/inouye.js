@@ -22,11 +22,11 @@ $('#profile_pic').click(function(e){
     $("#profile_pic").css("margin-right", "9%");
     $("#profile_pic").css("margin-left", "0");
     $("#profile_pic").css("margin-top", "0");
+    $("#mybio").css("margin-top", "5%");
     $("#profile_pic").css("float", "right");
     $('#mybio').show("slide");
     heightCalculator();
     $('body').animate({height:fullHeight + "px"},700);
-
   })
 
   $('#about_inouye').click(function(e){
@@ -39,7 +39,8 @@ $('#profile_pic').click(function(e){
     $("#profile_pic").css("margin-right", "9%");
     $("#profile_pic").css("margin-left", "0");
     $("#profile_pic").css("float", "right");
-    $("#profile_pic").css("margin-top", "5%");
+    $("#mybio").css("margin-top", "5%");
+    $("#profile_pic").css("margin-top", "0");
     $('.welcome').hide("slide");
     $('#mybio').show("slide");
     heightCalculator();
