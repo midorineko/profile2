@@ -12,7 +12,7 @@ $(document).ready(function(){
   $('.welcome0').click('click', function(e){
       e.preventDefault;
       $('.navbar').show();
-    })
+    });
   });
 };
 

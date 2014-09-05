@@ -3,6 +3,7 @@ var ready;
 ready = function() {
 $(document).ready(function(){
 $('.0text').hide();
+$('.1text').hide();
 $(".navbar").hide();
 $("#profile_pic").hide();
 
