@@ -8,6 +8,11 @@ $(document).ready(function(){
       function(){
         $('.0text').hide();
     });
+
+  $('.welcome0').click('click', function(e){
+      e.preventDefault;
+      $('.navbar').show();
+    })
   });
 };
 
