@@ -12,7 +12,22 @@ $(document).ready(function(){
   $('.welcome0').click('click', function(e){
       e.preventDefault;
       $('.navbar').show();
-    })
+    });
+
+
+  $('.welcome4').hover(
+      function(){
+        $('.4text').show();
+      },
+      function(){
+        $('.4text').hide();
+    });
+
+  $('.welcome4').click('click', function(e){
+      e.preventDefault;
+      $('.socialnet').show();
+    });
+
   });
 };
 
