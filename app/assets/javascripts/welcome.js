@@ -7,6 +7,8 @@ $('.1text').hide();
 $('.2text').hide();
 $('.3text').hide();
 $('.4text').hide();
+$('.5text').hide();
+$('.6text').hide();
 $(".navbar").hide();
 $("#profile_pic").hide();
 
