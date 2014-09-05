@@ -1,5 +1,12 @@
 var ready;
 ready = function() {
+function heightCalculator(){
+   fullHeight = 0;
+  $('body').height(function(index, height) {
+          fullHeight += (window.innerHeight - $(this).offset().top);
+   });
+}
+
 $(document).ready(function(){
   $('.welcome0').hover(
       function(){
@@ -12,6 +19,8 @@ $(document).ready(function(){
   $('.welcome0').click('click', function(e){
       e.preventDefault;
       $('.navbar').show();
+      heightCalculator();
+    $('body').animate({height:fullHeight + "px"},700);
     });
 
 
@@ -54,7 +63,6 @@ var mew = 0;
       function(){
         $('.6text').hide();
     });
-
     $('.welcome6').click('click', function(e){
       e.preventDefault;
       window.location.href = "/";

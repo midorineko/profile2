@@ -7,6 +7,9 @@
 .meow{
   display:none;
 }
+.imgHov{
+  border: 2px solid lightblue;
+}
 
 .welcome0:hover{
   color:red;
