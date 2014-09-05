@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
-$('.welcome1').hover(
+$('.welcome2').hover(
      function(){
-      $('.1text').show();
+      $('.2text').show();
     },
       function(){
-        $('.1text').hide();
+        $('.2text').hide();
     });
 
-$('.welcome1').click('click', function(e){
+$('.welcome2').click('click', function(e){
   e.preventDefault();
   $('.welcome').hide();
   $('#profile_pic').hide();
