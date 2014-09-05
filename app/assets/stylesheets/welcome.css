@@ -1,6 +1,9 @@
 .redlets{
   color: red;
 }
+.socialnet{
+  display: none;
+}
 
 .welcome0:hover{
   color:red;
@@ -12,6 +15,9 @@
   color:red;
 }
 .welcome3:hover{
+  color:red;
+}
+.welcome4:hover{
   color:red;
 }
 
