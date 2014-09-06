@@ -21,7 +21,8 @@ $(document).ready(function(){
       $('.navbar').show();
       $('.welcome').hide();
       heightCalculator();
-    $('body').animate({height:fullHeight + "px"},700);
+      if($('img').is(':visible')) { $('body').animate({height:fullHeight + "px"},700);
+       };
     });
 
 
