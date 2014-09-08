@@ -27,9 +27,9 @@ var mewsvg = 0;
       if(mewsvg > 3){
         $('.welcome1').hide("slide");
         $('.welcome3').hide("slide");
+        $('.welcome4').hide("slide");
       }
       if(mewsvg>4){
-        $('.welcome4').hide("slide");
         $('#profile_pic').hide("slide");
         $('#msvg').show();
          $('#msvg').lazylinepainter(
