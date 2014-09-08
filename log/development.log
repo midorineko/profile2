@@ -69785,3 +69785,4463 @@ Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:43:19 -070
 
 
 Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:43:19 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:45:01 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:45:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:46:08 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:46:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:46:51 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.1ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (33.1ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 89ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:47:07 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:48:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:48:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.5ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:49:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:50:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.8ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:51:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 69ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:25 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.1ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:28 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.9ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:29 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.8ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 45ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.9ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:30 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.1ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.1ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:32 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.1ms)
+  Rendered profile/_tech.html.erb (0.1ms)
+  Rendered profile/_welcome.html.erb (0.1ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.5ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.3ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 50ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:33 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:37 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:56 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:56 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:56 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:56 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:56 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:56 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:57 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:56:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.8ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:57:02 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.8ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:57:03 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.1ms)
+  Rendered profile/home.html.erb within layouts/application (3.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:57:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.5ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:59:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 11:59:27 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 12:00:21 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 63ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 12:00:49 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (29.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 85ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 12:01:42 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.8ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 44ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-08 12:02:14 -0700
