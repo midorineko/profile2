@@ -20,16 +20,16 @@ var mewsvg = 0;
         mew --;
       }
       mewsvg++;
-      if(mewsvg > 2){
+      if(mewsvg > 1){
         $('.welcome0').hide("slide");
         $('.welcome2').hide("slide");
       }
-      if(mewsvg > 3){
+      if(mewsvg > 2){
         $('.welcome1').hide("slide");
         $('.welcome3').hide("slide");
         $('.welcome4').hide("slide");
       }
-      if(mewsvg>4){
+      if(mewsvg>3){
         $('#profile_pic').hide("slide");
         $('#msvg').show();
          $('#msvg').lazylinepainter(
