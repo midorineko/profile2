@@ -41,9 +41,6 @@ window.setInterval(function(){
          heightCalculator();
           $( ".welcome" ).animate({height:fullHeight + "px"},10);
     }
-    if (index === 8 ){
-
-    }
   }, 700);
 
   });
