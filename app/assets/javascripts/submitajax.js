@@ -1,13 +1,12 @@
 $('document').ready(function(){
   $('#contactyou').on("click", function(e){
     e.preventDefault();
-    console.log("step one")
     $.ajax({
       type: "post",
       url: "/visitors/create",
-      data: {hello: $('#emailinput').val()},
+      data: {email: $('#emailinput').val(), position: $('#positioninput').val(), company: $('#companyinput').val()},
       success: function(){
-        console.log("data")
+        $('#contactyou').append($('#emailinput').val())
       }
     })
 
@@ -15,4 +14,5 @@ $('document').ready(function(){
 });
 
 // /visitors/create
-// $('#emailinput').text()
+// $('#positioninput').val()
+// $('#companyinput').val()

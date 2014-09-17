@@ -82175,3 +82175,2302 @@ Processing by VisitorsController#create as */*
   Rendered visitors/create.html.erb within layouts/application (0.0ms)
   Rendered profile/_topbar.html.erb (0.0ms)
 Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.1ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.9ms)
+  Rendered profile/_topbar.html.erb (0.5ms)
+Completed 200 OK in 65ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:13:11 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:13:28 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"Allforms@gmail.com", "position"=>"arebeingpassed", "company"=>"ofdata"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["company", "ofdata"], ["created_at", "2014-09-17 03:13:28.197995"], ["email", "Allforms@gmail.com"], ["position", "arebeingpassed"], ["updated_at", "2014-09-17 03:13:28.197995"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 50.6ms | ActiveRecord: 3.0ms)
+  [1m[36mVisitor Load (0.4ms)[0m  [1mSELECT "visitors".* FROM "visitors"[0m
+  [1m[35mVisitor Load (0.8ms)[0m  SELECT  "visitors".* FROM "visitors"   ORDER BY "visitors"."id" DESC LIMIT 1
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:14:53 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.1ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:14:54 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:15:05 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"meow@gmail.com", "position"=>"thankyou", "company"=>"thankyou"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["company", "thankyou"], ["created_at", "2014-09-17 03:15:05.511388"], ["email", "meow@gmail.com"], ["position", "thankyou"], ["updated_at", "2014-09-17 03:15:05.511388"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 25ms (Views: 16.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.1ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 90ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:15:22 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:15:33 -0700
+Processing by VisitorsController#create as JSON
+  Parameters: {"email"=>"hereitworks@gmail.com", "position"=>"yes", "company"=>"yesyes"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["company", "yesyes"], ["created_at", "2014-09-17 03:15:33.875929"], ["email", "hereitworks@gmail.com"], ["position", "yes"], ["updated_at", "2014-09-17 03:15:33.875929"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  Rendered visitors/create.html.erb within layouts/application (0.3ms)
+  Rendered profile/_topbar.html.erb (0.4ms)
+Completed 200 OK in 49ms (Views: 45.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.8ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:15:42 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:15:51 -0700
+Processing by VisitorsController#create as JSON
+  Parameters: {"email"=>"asdflksdajflasdk@gmail.com", "position"=>"sdlkfjsdlkfdsf", "company"=>"sjdfnlsakj"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["company", "sjdfnlsakj"], ["created_at", "2014-09-17 03:15:51.746096"], ["email", "asdflksdajflasdk@gmail.com"], ["position", "sdlkfjsdlkfdsf"], ["updated_at", "2014-09-17 03:15:51.746096"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.9ms)
+  Rendered profile/_topbar.html.erb (0.1ms)
+Completed 200 OK in 98ms (Views: 97.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:16:26 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:16:37 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"gogodolls@gmail.com", "position"=>"sdlkfjsdlkfjsd", "company"=>"sdlkfaslkj"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["company", "sdlkfaslkj"], ["created_at", "2014-09-17 03:16:37.253717"], ["email", "gogodolls@gmail.com"], ["position", "sdlkfjsdlkfjsd"], ["updated_at", "2014-09-17 03:16:37.253717"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.1ms)
+  Rendered profile/_resume.html.erb (0.1ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.4ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:16:50 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:16:56 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"asdfadsfasd", "position"=>"sdafdsfaf", "company"=>"asdfadsfa"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["company", "asdfadsfa"], ["created_at", "2014-09-17 03:16:56.724745"], ["email", "asdfadsfasd"], ["position", "sdafdsfaf"], ["updated_at", "2014-09-17 03:16:56.724745"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:18:14 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:18:21 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"asdfasdfasdfa", "position"=>"asdfasdfa", "company"=>"dasdfasd"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["company", "dasdfasd"], ["created_at", "2014-09-17 03:18:21.683131"], ["email", "asdfasdfasdfa"], ["position", "asdfasdfa"], ["updated_at", "2014-09-17 03:18:21.683131"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.1ms)
+Completed 200 OK in 26ms (Views: 17.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:18:40 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.9ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 68ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:47 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:48 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:48 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:18:48 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:18:48 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:18:48 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:18:48 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:18:48 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:18:55 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"asdfknasdlkfj", "position"=>"slkdjfl", "company"=>"lksdjflks"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["company", "lksdjflks"], ["created_at", "2014-09-17 03:18:55.235664"], ["email", "asdfknasdlkfj"], ["position", "slkdjfl"], ["updated_at", "2014-09-17 03:18:55.235664"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:19:08 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.8ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 96ms (Views: 95.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:19:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 46ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:19:15 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:19:24 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"sadfjsdalfkjasdlkfj", "position"=>"lkdjfldskjflsdkjfds", "company"=>"ldkjfldksjlskf"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["company", "ldkjfldksjlskf"], ["created_at", "2014-09-17 03:19:24.355229"], ["email", "sadfjsdalfkjasdlkfj"], ["position", "lkdjfldskjflsdkjfds"], ["updated_at", "2014-09-17 03:19:24.355229"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 49ms (Views: 45.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.9ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:20:35 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:20:41 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"asdfasdfa", "position"=>"sdf", "company"=>"sdfs"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["company", "sdfs"], ["created_at", "2014-09-17 03:20:41.915515"], ["email", "asdfasdfa"], ["position", "sdf"], ["updated_at", "2014-09-17 03:20:41.915515"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 16.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-16 20:21:48 -0700
+Processing by ProfileController#home as HTML
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.9ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:21:49 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:21:57 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"sdafasdfsd", "position"=>"dfsgdsfgsd", "company"=>"sadfsdfg"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["company", "sadfsdfg"], ["created_at", "2014-09-17 03:21:58.004001"], ["email", "sdafasdfsd"], ["position", "dfsgdsfgsd"], ["updated_at", "2014-09-17 03:21:58.004001"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 49.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/?email=&company=&position=" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+Processing by ProfileController#home as HTML
+  Parameters: {"email"=>"", "company"=>"", "position"=>""}
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.8ms)
+  Rendered profile/_topbar.html.erb (0.1ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:22:39 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:22:47 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"lasdkfjlksdj", "position"=>"lsdkjfldskf", "company"=>"sdlkfjsldkj"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["company", "sdlkfjsldkj"], ["created_at", "2014-09-17 03:22:47.827139"], ["email", "lasdkfjlksdj"], ["position", "lsdkjfldskf"], ["updated_at", "2014-09-17 03:22:47.827139"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  Rendered visitors/create.html.erb within layouts/application (0.1ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 19.2ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:22:49 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"lasdkfjlksdj", "position"=>"lsdkjfldskf", "company"=>"sdlkfjsldkj"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["company", "sdlkfjsldkj"], ["created_at", "2014-09-17 03:22:49.021973"], ["email", "lasdkfjlksdj"], ["position", "lsdkjfldskf"], ["updated_at", "2014-09-17 03:22:49.021973"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:22:49 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"lasdkfjlksdj", "position"=>"lsdkjfldskf", "company"=>"sdlkfjsldkj"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["company", "sdlkfjsldkj"], ["created_at", "2014-09-17 03:22:49.525544"], ["email", "lasdkfjlksdj"], ["position", "lsdkjfldskf"], ["updated_at", "2014-09-17 03:22:49.525544"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/?email=&company=&position=" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+Processing by ProfileController#home as HTML
+  Parameters: {"email"=>"", "company"=>"", "position"=>""}
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.7ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:23:04 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:23:11 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"dsflkajslkfjas", "position"=>"lksdjflks", "company"=>"lksdjflsdkjf"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["company", "lksdjflsdkjf"], ["created_at", "2014-09-17 03:23:11.787759"], ["email", "dsflkajslkfjas"], ["position", "lksdjflks"], ["updated_at", "2014-09-17 03:23:11.787759"]]
+  [1m[35m (0.8ms)[0m  COMMIT
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 25ms (Views: 16.9ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/?email=&company=&position=" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+Processing by ProfileController#home as HTML
+  Parameters: {"email"=>"", "company"=>"", "position"=>""}
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.9ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 65ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:23:22 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:23:29 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"asdfdasf", "position"=>"asdfasdf", "company"=>"sdafdasf"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["company", "sdafdasf"], ["created_at", "2014-09-17 03:23:29.514922"], ["email", "asdfdasf"], ["position", "asdfasdf"], ["updated_at", "2014-09-17 03:23:29.514922"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/?email=&company=&position=" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+Processing by ProfileController#home as HTML
+  Parameters: {"email"=>"", "company"=>"", "position"=>""}
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (2.8ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:24:01 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:24:08 -0700
+Processing by VisitorsController#create as JSON
+  Parameters: {"email"=>"adsflkasdfjl", "position"=>"slkdfjsdlk", "company"=>"lskdjflskdj"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["company", "lskdjflskdj"], ["created_at", "2014-09-17 03:24:08.357805"], ["email", "adsflkasdfjl"], ["position", "slkdfjsdlk"], ["updated_at", "2014-09-17 03:24:08.357805"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:24:09 -0700
+Processing by VisitorsController#create as JSON
+  Parameters: {"email"=>"adsflkasdfjl", "position"=>"slkdfjsdlk", "company"=>"lskdjflskdj"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["company", "lskdjflskdj"], ["created_at", "2014-09-17 03:24:09.872552"], ["email", "adsflkasdfjl"], ["position", "slkdfjsdlk"], ["updated_at", "2014-09-17 03:24:09.872552"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/?email=&company=&position=" for 127.0.0.1 at 2014-09-16 20:24:19 -0700
+Processing by ProfileController#home as HTML
+  Parameters: {"email"=>"", "company"=>"", "position"=>""}
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.1ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.0ms)
+  Rendered profile/home.html.erb within layouts/application (3.6ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:24:20 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:24:34 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"sldfkasldkfj", "position"=>"ksjdfhksdj", "company"=>"alksdfjakjsd"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["company", "alksdfjakjsd"], ["created_at", "2014-09-17 03:24:34.557929"], ["email", "sldfkasldkfj"], ["position", "ksjdfhksdj"], ["updated_at", "2014-09-17 03:24:34.557929"]]
+  [1m[35m (1.2ms)[0m  COMMIT
+  Rendered visitors/create.html.erb within layouts/application (0.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 51ms (Views: 48.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/?email=&company=&position=" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+Processing by ProfileController#home as HTML
+  Parameters: {"email"=>"", "company"=>"", "position"=>""}
+  Rendered profile/_mybio.html.erb (0.0ms)
+  Rendered profile/_resume.html.erb (0.0ms)
+  Rendered profile/_biology.html.erb (0.0ms)
+  Rendered profile/_tech.html.erb (0.0ms)
+  Rendered profile/_welcome.html.erb (0.0ms)
+  Rendered profile/_social.html.erb (0.1ms)
+  Rendered profile/home.html.erb within layouts/application (3.0ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/biology_compsci.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/bootstrap-theme.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/grid.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/profile_page.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/resume.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/biology.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/bootstrap.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/inouye.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/jquery.lazylinepainter-1.4.1.min.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/mewsvg.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/raphael-min.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/resume.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/submitajax.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/tech.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/welcomehover.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/bootstrap.min.js" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/bootstrap-theme.css.map" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started GET "/assets/profile_pic.jpg" for 127.0.0.1 at 2014-09-16 20:27:19 -0700
+
+
+Started POST "/visitors/create" for 127.0.0.1 at 2014-09-16 20:27:28 -0700
+Processing by VisitorsController#create as */*
+  Parameters: {"email"=>"asldkfjadlksfjsl", "position"=>"sdlfkjsdlkfjds", "company"=>"ldsjfdslkjl"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "visitors" ("company", "created_at", "email", "position", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["company", "ldsjfdslkjl"], ["created_at", "2014-09-17 03:27:28.190807"], ["email", "asldkfjadlksfjsl"], ["position", "sdlfkjsdlkfjds"], ["updated_at", "2014-09-17 03:27:28.190807"]]
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+  Rendered visitors/create.html.erb within layouts/application (0.1ms)
+  Rendered profile/_topbar.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 1.1ms)
