@@ -6,13 +6,13 @@ $('document').ready(function(){
       url: "/visitors/create",
       data: {email: $('#emailinput').val(), position: $('#positioninput').val(), company: $('#companyinput').val()},
       success: function(){
-        $('#contactyou').append($('#emailinput').val())
+        $('#contactyou').empty()
+        $('#emailinput').hide()
+        $('#companyinput').hide()
+        $('#positioninput').hide()
+        $('#contactyou').append("Thank You" + " \"" + $('#emailinput').val() + "\"")
       }
     })
 
   })
 });
-
-// /visitors/create
-// $('#positioninput').val()
-// $('#companyinput').val()
